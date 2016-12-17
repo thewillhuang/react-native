@@ -95,7 +95,7 @@ function log(logEntry: LogEntry): LogEntry {
 
 function print(
   logEntry: LogEntry,
-  printFields?: Array<string> = [],
+  printFields: Array<string> = [],
 ): LogEntry {
   if (!PRINT_LOG_ENTRIES) {
     return logEntry;
